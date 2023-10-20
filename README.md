@@ -1,6 +1,6 @@
-Intermediate IT Challenge Patents
+# Intermediate IT Challenge Patents
 
-#Solution
+# Solution
 The challenge was carried out according to the instructions in the statement. Take into account the following considerations.
 
 -In order to generalize, originalNames.json has been stored in the Data folder. So that the list of original names can be changed at any time.
