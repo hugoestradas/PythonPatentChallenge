@@ -38,5 +38,6 @@ Se realizó el reto según instrucciones del enunciado. Tomar en cuenta las sigu
     -Robustecer ante eventuales ubicaciones nuevas para nombres de compañía, de modo que también se aproveche la similitud ortográfica aunque no existan ejemplos de la combinación país ciudad compañía, en el conjunto de datos.
 
 # Sobre el uso de los scripts
-    -Es necesario ejecutar desde consola cualquiera de los dos scripts (namesCleaner.py y dataExploring.py).
-    -El archivo de salida se guardará en la misma ubicación del archivo de entrada. En ambos casos existirá una etiqueta que lo diferencie del archivo oficial: "-fixed" y "-exploration".
+-Es necesario ejecutar desde consola cualquiera de los dos scripts (namesCleaner.py y dataExploring.py).
+
+-El archivo de salida se guardará en la misma ubicación del archivo de entrada. En ambos casos existirá una etiqueta que lo diferencie del archivo oficial: "-fixed" y "-exploration".
