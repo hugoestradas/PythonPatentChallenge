@@ -1,11 +1,14 @@
 # Intermedia IT Challenge Patents
 
 # Solución
-##Se realizó el reto según instrucciones del enunciado. Tomar en cuenta las siguientes consideraciones.
+Se realizó el reto según instrucciones del enunciado. Tomar en cuenta las siguientes consideraciones.
 
 -Con el fin de generalizar, en la carpeta Data se ha almacenado originalNames.json. De modo que se pueda cambiar en cualquier momento el listado de nombres originales.
+
 -El archivo functions.py solo tiene funciones y no requiere de ejecución.
+
 -El archivo dataExploring.py genera una inspección inicial de los datos que permita validar o no el enfoque de la solución. Se generan nubes de caracteres y nubes de palabras como referencia visual que es de ayuda a la hora de generar la limpieza básica que se indica en el enunciado. También arroja información sobre la existencia de coincidencias exactas con los nombres originales, qué porcentaje del dataset y cuantas clases están presentes. El resultado de este script se almacena con la etiqueta "-exploration", en formato pdf.
+
 -El archivo namesCleaner.py ejecuta una etapa inicial de limpieza básica, luego realiza un etiquetado de los datos basándose en las coincidencias exactas, para este caso es más del 99% de datos etiquetados debido a coincidencia exacta. Con estas etiquetas se entrena un algoritmo Support Vector Machine, que permite tomar en cuenta la información adicional de país y ciudad, a la vez que la similitud respecto a los nombres "oficiales". El resultado de este archivo genera un archivo con la etiqueta "-fixed", con la columna de nombre normalizada.
 
 
