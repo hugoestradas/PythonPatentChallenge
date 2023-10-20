@@ -48,4 +48,4 @@ Se realizó el reto según instrucciones del enunciado. Tomar en cuenta las sigu
 
 - Y para ejecutar el data cleaner:
 
-    python namesCleaner.py Data/data.csv
+        python dataExploring.py Data/data.csv
