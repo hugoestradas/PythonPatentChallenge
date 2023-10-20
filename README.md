@@ -34,14 +34,14 @@ Se realizó el reto según instrucciones del enunciado. Tomar en cuenta las sigu
 -Establecer validaciones que levanten alarma cuando se ejecute el código sobre un conjunto de datos que infrinja las principales consideraciones al momento de ejcutar la solución basada en SVM. Por ejemplo:
         -Desbalance de clases.
         -Ausencia de clase en conjunto de datos original, incluso después de limpieza básica.
-    -Considerar validaciones ante archivos defectuosos o con estructura distinta.
-    -Robustecer ante eventuales ubicaciones nuevas para nombres de compañía, de modo que también se aproveche la similitud ortográfica aunque no existan ejemplos de la combinación país ciudad compañía, en el conjunto de datos.
+
+- Considerar validaciones ante archivos defectuosos o con estructura distinta.
+
+-Robustecer ante eventuales ubicaciones nuevas para nombres de compañía, de modo que también se aproveche la similitud ortográfica aunque no existan ejemplos de la combinación país ciudad compañía, en el conjunto de datos.
 
 # Sobre el uso de los scripts
 -Es necesario ejecutar desde consola cualquiera de los dos scripts (namesCleaner.py y dataExploring.py).
 
 -El archivo de salida se guardará en la misma ubicación del archivo de entrada. En ambos casos existirá una etiqueta que lo diferencie del archivo oficial: "-fixed" y "-exploration".
-
-
 
     -python dataExploring.py Data/data.csv
