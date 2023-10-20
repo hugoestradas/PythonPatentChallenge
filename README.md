@@ -41,3 +41,5 @@ Se realizó el reto según instrucciones del enunciado. Tomar en cuenta las sigu
 -Es necesario ejecutar desde consola cualquiera de los dos scripts (namesCleaner.py y dataExploring.py).
 
 -El archivo de salida se guardará en la misma ubicación del archivo de entrada. En ambos casos existirá una etiqueta que lo diferencie del archivo oficial: "-fixed" y "-exploration".
+
+ -python dataExploring.py Data/data.csv
