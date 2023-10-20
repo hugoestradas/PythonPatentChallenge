@@ -1,5 +1,4 @@
-# PythonPatentChallenge
-Intermedia IT Challenge Patents
+# Intermedia IT Challenge Patents
 
 # Solución
 ##Se realizó el reto según instrucciones del enunciado. Tomar en cuenta las siguientes consideraciones.
