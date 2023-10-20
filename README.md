@@ -45,3 +45,5 @@ Se realizó el reto según instrucciones del enunciado. Tomar en cuenta las sigu
 -El archivo de salida se guardará en la misma ubicación del archivo de entrada. En ambos casos existirá una etiqueta que lo diferencie del archivo oficial: "-fixed" y "-exploration".
 
     python dataExploring.py Data/data.csv
+
+    python namesCleaner.py Data/data.csv
