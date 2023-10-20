@@ -24,11 +24,13 @@ Se realizó el reto según instrucciones del enunciado. Tomar en cuenta las sigu
 
 -Es necesario modificar originalNames.json en caso se requiere aplicar una nueva solución con un conjunto de nombres originales distinto.
 -Según lo indicado en el enunciado, se asumió que las abreviaturas propias de una empresa corresponden con las que estaban en el conjunto particular de datos. De igual forma se procedió a adquirirlas con expresión regular y se detallan en el pdf de la exploración de datos.
+
 -Al hacer uso de SVM se elimina la dependencia solo de la similitud ortográfica y se permite que los campos de país y ciudad también sean tomados en cuenta para la asignación del nombre corregido.
 
 # Oportunidades de mejora a solución
 
  -Encontrar métodos distintos de inferencia de los nombres originales sin que se indiquen de manera explícita. (El grado de incertidumbre aumenta considerablemente).
+ 
 -Establecer validaciones que levanten alarma cuando se ejecute el código sobre un conjunto de datos que infrinja las principales consideraciones al momento de ejcutar la solución basada en SVM. Por ejemplo:
         -Desbalance de clases.
         -Ausencia de clase en conjunto de datos original, incluso después de limpieza básica.
