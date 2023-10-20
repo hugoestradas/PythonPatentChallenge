@@ -1,11 +1,8 @@
 # PythonPatentChallenge
 Intermedia IT Challenge Patents
 
-# PythonPatentChallenge
-Intermedia IT Challenge about Patents using provided data
-
 # Solución
-Se realizó el reto según instrucciones del enunciado. Tomar en cuenta las siguientes consideraciones.
+##Se realizó el reto según instrucciones del enunciado. Tomar en cuenta las siguientes consideraciones.
 
 -Con el fin de generalizar, en la carpeta Data se ha almacenado originalNames.json. De modo que se pueda cambiar en cualquier momento el listado de nombres originales.
 -El archivo functions.py solo tiene funciones y no requiere de ejecución.
